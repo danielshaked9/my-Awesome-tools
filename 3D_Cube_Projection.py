@@ -5,12 +5,12 @@ from Projection_Engine_V2 import *
 import os
 #import screeninfo
 
-
+#to-do: mouse ui 
+#maybe texture
 fov=30
 matrix=np.loadtxt("cubepoints.txt",float,delimiter=",")
 cube=matrix
 cube=cube
-#cube=PerspectiveProjection(matrix,50,fov)
 
 # Create a black image
 img = np.zeros((512,512,3), np.uint8)
